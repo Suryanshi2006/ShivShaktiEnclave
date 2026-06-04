@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1c1c1c;
+  
+  --primary: #0a301b;
+  --primary-foreground: #ffffff;
+  
+  --gold: #c5a861;
+  --gold-light: #d4bc82;
+  
+  --charcoal: #1c1c1c;
+  --charcoal-light: #2a2a2a;
+
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-light: var(--charcoal-light);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-playfair);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+@utility glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@utility glass-dark {
+  background: rgba(10, 48, 27, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 168, 97, 0.3);
+}
