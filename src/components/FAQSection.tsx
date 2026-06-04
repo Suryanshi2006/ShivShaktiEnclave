@@ -30,13 +30,13 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-24 bg-white relative">
-      <div className="container mx-auto px-6 lg:px-12 max-w-4xl">
+    <section className="py-16 lg:py-24 bg-white relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-4xl">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5 mb-6 text-primary">
             <span className="text-xs font-bold tracking-widest uppercase">FAQ</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
             Frequently Asked <span className="text-primary italic">Questions.</span>
           </h2>
         </div>

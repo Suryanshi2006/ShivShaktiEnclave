@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[100dvh] min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -25,7 +25,7 @@ export default function HeroSection() {
             <span className="text-sm font-medium tracking-wide uppercase">Premium Plots & Villas</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-heading font-bold leading-tight mb-4 text-shadow-lg">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold leading-tight mb-4 text-shadow-lg">
             A Secure & Smart <br />
             <span className="text-gold italic">Living Destination</span>
           </h1>
@@ -56,7 +56,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto border-t border-white/20 pt-8"
+          className="mt-12 lg:mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto border-t border-white/20 pt-8"
         >
           <div className="text-center">
             <div className="text-3xl font-heading font-bold text-gold">₹29K</div>

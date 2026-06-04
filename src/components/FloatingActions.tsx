@@ -9,10 +9,10 @@ export default function FloatingActions() {
   const telUrl = `tel:${phoneNumber}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col gap-3">
       <a
         href={mailtoUrl}
-        className="w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-gray-700 transition-all hover:-translate-y-1 group relative"
+        className="w-10 h-10 md:w-12 md:h-12 bg-gray-800 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-gray-700 transition-all hover:-translate-y-1 group relative"
         aria-label="Email Us"
       >
         <Mail size={22} />
@@ -22,7 +22,7 @@ export default function FloatingActions() {
       </a>
       <a
         href={telUrl}
-        className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-all hover:-translate-y-1 group relative"
+        className="w-10 h-10 md:w-12 md:h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-all hover:-translate-y-1 group relative"
         aria-label="Call Now"
       >
         <Phone size={22} />
@@ -34,7 +34,7 @@ export default function FloatingActions() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#20b858] transition-all hover:-translate-y-1 group relative"
+        className="w-12 h-12 md:w-14 md:h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#20b858] transition-all hover:-translate-y-1 group relative"
         aria-label="WhatsApp Us"
       >
         <MessageCircle size={30} />

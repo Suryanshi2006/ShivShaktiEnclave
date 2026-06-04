@@ -31,14 +31,14 @@ const highlights = [
 
 export default function HighlightsSection() {
   return (
-    <section id="highlights" className="py-24 bg-charcoal text-white relative">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section id="highlights" className="py-16 lg:py-24 bg-charcoal text-white relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/30 bg-gold/5 mb-6">
             <span className="text-xs font-bold tracking-widest text-gold uppercase">Project Highlights</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
             Designed for <span className="text-gold italic">Perfection</span>
           </h2>
           <p className="text-gray-400 text-lg font-light">

@@ -50,14 +50,14 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-charcoal text-white relative">
+    <section id="contact" className="py-16 lg:py-24 bg-charcoal text-white relative">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent hidden lg:block"></div>
       
-      <div className="container mx-auto px-6 lg:px-12 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row gap-16">
           
           <div className="w-full lg:w-5/12">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
               Get in Touch with <br/><span className="text-gold italic">Our Experts.</span>
             </h2>
             <p className="text-gray-400 font-light mb-12">
@@ -103,7 +103,7 @@ export default function ContactSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white p-8 md:p-12 rounded-3xl shadow-2xl relative"
+              className="bg-white p-6 md:p-12 rounded-3xl shadow-2xl relative"
             >
               <div className="absolute top-0 right-12 w-24 h-1 bg-gold"></div>
               <h3 className="text-2xl font-heading font-bold text-charcoal mb-8">Register Your Interest</h3>

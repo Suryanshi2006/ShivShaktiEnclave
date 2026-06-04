@@ -28,13 +28,13 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 bg-muted relative">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-16 lg:py-24 bg-muted relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5 mb-6 text-primary">
             <span className="text-xs font-bold tracking-widest uppercase">Client Reviews</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
             Words of <span className="text-primary italic">Trust.</span>
           </h2>
           <p className="text-gray-600 text-lg font-light">

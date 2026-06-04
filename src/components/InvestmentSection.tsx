@@ -4,8 +4,8 @@ import { TrendingUp, Landmark } from "lucide-react";
 
 export default function InvestmentSection() {
   return (
-    <section id="investment" className="py-24 bg-muted relative">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section id="investment" className="py-16 lg:py-24 bg-muted relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           <div className="w-full lg:w-1/2">
@@ -14,7 +14,7 @@ export default function InvestmentSection() {
               <span className="text-xs font-bold tracking-widest uppercase text-charcoal">Investment Opportunity</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6 leading-tight">
               A Smart Asset for <br/> <span className="text-primary italic">Generational Wealth.</span>
             </h2>
             

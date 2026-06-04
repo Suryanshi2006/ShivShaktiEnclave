@@ -5,11 +5,11 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 bg-white relative overflow-hidden">
+    <section id="about" className="py-16 lg:py-24 bg-white relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-muted -skew-x-12 translate-x-20 opacity-50"></div>
       
-      <div className="container mx-auto px-6 lg:px-12 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           <motion.div 
@@ -50,7 +50,7 @@ export default function AboutSection() {
               <span className="text-xs font-bold tracking-widest uppercase">About The Project</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal leading-tight mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal leading-tight mb-6">
               A Legacy of Trust, <br/>
               A Future of <span className="text-primary italic">Luxury.</span>
             </h2>

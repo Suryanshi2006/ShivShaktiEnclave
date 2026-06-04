@@ -4,12 +4,12 @@ import { FileText, ShieldAlert, BadgeCheck, Scale } from "lucide-react";
 
 export default function TrustSection() {
   return (
-    <section className="py-24 bg-charcoal text-white relative border-y border-white/10">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-16 lg:py-24 bg-charcoal text-white relative border-y border-white/10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           <div className="w-full lg:w-1/2">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
               Invest with <br/><span className="text-gold italic">Absolute Confidence.</span>
             </h2>
             <p className="text-gray-400 text-lg font-light mb-12 max-w-lg">
@@ -67,7 +67,7 @@ export default function TrustSection() {
               <div className="absolute inset-4 rounded-full border border-white/10 animate-[spin_15s_linear_infinite_reverse]"></div>
               
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-64 h-64 rounded-full bg-gradient-to-br from-charcoal-light to-charcoal border border-white/10 shadow-2xl flex flex-col items-center justify-center p-8 text-center z-10 relative overflow-hidden">
+                <div className="w-56 h-56 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-charcoal-light to-charcoal border border-white/10 shadow-2xl flex flex-col items-center justify-center p-8 text-center z-10 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-gold/5 rounded-full blur-2xl"></div>
                   <ShieldAlert size={48} className="text-gold mb-4 relative z-10" />
                   <div className="text-3xl font-heading font-bold relative z-10 text-white">100%</div>

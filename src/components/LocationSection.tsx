@@ -14,15 +14,15 @@ const landmarks = [
 
 export default function LocationSection() {
   return (
-    <section id="location" className="py-24 bg-white relative">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section id="location" className="py-16 lg:py-24 bg-white relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5 mb-6 text-primary">
             <MapPin size={16} />
             <span className="text-xs font-bold tracking-widest uppercase">Prime Location</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
             Connected to <span className="text-primary italic">Everything.</span>
           </h2>
           <p className="text-gray-600 text-lg font-light">
@@ -37,7 +37,7 @@ export default function LocationSection() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-full lg:w-3/5 h-[500px] rounded-2xl overflow-hidden shadow-2xl border border-gray-100 relative group"
+            className="w-full lg:w-3/5 h-[300px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl border border-gray-100 relative group"
           >
             {/* Embedded Google Map */}
             <iframe 
